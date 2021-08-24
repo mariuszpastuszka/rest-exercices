@@ -10,4 +10,8 @@ public class VirusService {
     Optional<Virus> findById(Long id) {
         return Optional.empty();
     }
+
+    boolean deleteVirusById(Long id) {
+        return true;
+    }
 }
